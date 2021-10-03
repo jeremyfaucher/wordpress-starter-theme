@@ -1,0 +1,3 @@
+This is where any page-template files can sit. 
+
+This folder name is recognised by WordPress so it is important not to rename this folder if you plan to use page templates here.
