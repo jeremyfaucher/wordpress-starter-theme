@@ -235,7 +235,7 @@ function yourprefix_register_demo_metabox() {
 		'desc' => esc_html__( 'field description (optional)', 'cmb2' ),
 		'id'   => 'yourprefix_demo_textdate',
 		'type' => 'text_date',
-		// 'date_format' => 'Y-m-d',
+		'date_format' => 'M d, Y',
 	) );
 
 	$cmb_demo->add_field( array(
@@ -256,12 +256,12 @@ function yourprefix_register_demo_metabox() {
 	// This text_datetime_timestamp_timezone field type
 	// is only compatible with PHP versions 5.3 or above.
 	// Feel free to uncomment and use if your server meets the requirement
-	// $cmb_demo->add_field( array(
-	// 	'name' => esc_html__( 'Test Date/Time Picker/Time zone Combo (serialized DateTime object)', 'cmb2' ),
-	// 	'desc' => esc_html__( 'field description (optional)', 'cmb2' ),
-	// 	'id'   => 'yourprefix_demo_datetime_timestamp_timezone',
-	// 	'type' => 'text_datetime_timestamp_timezone',
-	// ) );
+	$cmb_demo->add_field( array(
+		'name' => esc_html__( '2Test Date/Time Picker/Time zone Combo (serialized DateTime object)', 'cmb2' ),
+		'desc' => esc_html__( 'field description (optional)', 'cmb2' ),
+		'id'   => 'yourprefix_demo_datetime_timestamp_timezone',
+		'type' => 'text_datetime_timestamp_timezone',
+	) );
 
 	$cmb_demo->add_field( array(
 		'name' => esc_html__( 'Test Money', 'cmb2' ),
