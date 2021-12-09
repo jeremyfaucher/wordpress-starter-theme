@@ -1,1 +1,2 @@
-## [Wiki documentation here](https://github.com/jeremyfaucher/wordpress-starter-theme/wiki)
+## WordPress Starter Theme
+Building a WordPress site from scratch
